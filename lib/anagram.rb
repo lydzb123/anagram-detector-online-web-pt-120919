@@ -17,4 +17,4 @@ end
 word = 'ba'
 word_array = ['ab', 'abc', 'bac']
 
-[a,b].sort 
+[a,b].sort
