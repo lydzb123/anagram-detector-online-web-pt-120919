@@ -18,7 +18,17 @@ class Anagram
 
 end
 #
+
+word = listen
+elists, google, inlets, banana
+
 #
+it 'should detect an anagram' do
+  detector = Anagram.new('listen')
+  listen = detector.match %w(enlists google inlets banana)
+  expect(listen).to eq(['inlets'])
+
+
 # word = 'ba'
 # word_array = ['ab', 'abc', 'bac']
 #
