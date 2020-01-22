@@ -12,7 +12,7 @@ class Anagram
       if x.split("").sort == @word.split("").sort
         ANAGRAMS << w
       end
-        return anagrams
+        return ANAGRAMS
       end
   end
 
