@@ -15,9 +15,9 @@ class Anagram
   end
 
 end
-
-
-word = 'ba'
-word_array = ['ab', 'abc', 'bac']
-
-[a,b].sort
+# 
+# 
+# word = 'ba'
+# word_array = ['ab', 'abc', 'bac']
+# 
+# [a,b].sort
