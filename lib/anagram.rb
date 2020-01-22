@@ -12,8 +12,9 @@ class Anagram
       if x.split("").sort.join("") == @word.split("").sort.join("")
         anagrams.push(x)
       end
-        return anagrams
       end
+      return anagrams
+      
   end
 
 
