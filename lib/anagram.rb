@@ -11,7 +11,7 @@ class Anagram
       anagrams = []
       if w.split("").sort == @word.split("").sort
         anagrams << w
-      else
+      end
         return anagrams
       end
     end
