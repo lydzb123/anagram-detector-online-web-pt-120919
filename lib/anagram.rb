@@ -11,6 +11,7 @@ class Anagram
     word_array.each do |x|
       if x.split("").sort == @word.split("").sort
         anagrams << w
+        return anagrams
       end
         return anagrams
       end
