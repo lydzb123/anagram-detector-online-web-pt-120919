@@ -12,6 +12,7 @@ class Anagram
         anagrams = []
         anagrams << w
       end
+        anagrams = []
         return anagrams
       end
   end
