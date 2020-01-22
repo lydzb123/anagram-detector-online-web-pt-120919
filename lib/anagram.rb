@@ -8,7 +8,7 @@ class Anagram
 
   def match(word_array)
     word_array.each do |w|
-      if w.split("").sort
+      if w.split("").sort == @word.split("").sort
   end
 
 end
@@ -16,3 +16,5 @@ end
 
 word = 'ba'
 word_array = ['ab', 'abc', 'bac']
+
+[a,b].sort 
