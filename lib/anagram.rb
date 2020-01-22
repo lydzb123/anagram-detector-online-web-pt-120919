@@ -7,7 +7,12 @@ class Anagram
 
 
   def match(word_array)
-    word_array.each
+    word_array.each do |w|
+      w.split("")
   end
 
 end
+
+
+word = 'ba'
+word_array = ['ab', 'abc', 'bac']
