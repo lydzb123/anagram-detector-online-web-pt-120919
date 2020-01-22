@@ -4,18 +4,9 @@ class Anagram
   def initialize(word)
     @word = word
   end
-  
 
-  def match(word_list)
-  word_list.each do |option|
 
-  new_arr = option.split("")
-
-  if new_arr.sort == @word.sort
-    puts option
+  def match(word_array)
   end
-
-end
-end
 
 end
