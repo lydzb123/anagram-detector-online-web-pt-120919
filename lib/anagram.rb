@@ -14,7 +14,6 @@ class Anagram
       end
         return anagrams
       end
-    end
   end
 
 end
