@@ -10,7 +10,7 @@ class Anagram
     anagrams = []
     word_array.each do |x|
       if x.split("").sort.join("") == @word.split("").sort.join("")
-        anagrams << x
+        anagrams.push(x)
       end
         return anagrams
       end
