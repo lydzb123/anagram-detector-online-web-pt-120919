@@ -10,6 +10,8 @@ class Anagram
     word_array.each do |w|
       if w.split("").sort == @word.split("").sort
         return w
+      else
+        return []
       end
     end
   end
