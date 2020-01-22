@@ -5,14 +5,14 @@ class Anagram
     @word = word
   end
 
-  ANAGRAMS = []
 
   def match(word_array)
     word_array.each do |x|
+      anagrams = []
       if x.split("").sort == @word.split("").sort
-        ANAGRAMS << w
+        anagrams << w
       end
-        return ANAGRAMS
+        return anagrams
       end
   end
 
